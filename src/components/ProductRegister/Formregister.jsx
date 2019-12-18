@@ -11,6 +11,7 @@ export default function FormRegister(){
     const {register, handleSubmit} = useForm()
     const onSubmit = values => postFetch(values);
     const postFetch = (da) => {
+        setisLoaded(true)
         console.log(da);
         var fd = new FormData();
         fd.append('workshop_name',da.name)
@@ -34,7 +35,7 @@ export default function FormRegister(){
                 alert('Error al registrar taller')
                 return
             }
-            setisLoaded(true)
+            setisLoaded(false)
             alert('Tallere registrado correctamente')
         })
     }
