@@ -1,0 +1,33 @@
+.card-login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inp{
+    height: 25px;
+    width: 200px;
+    outline: none;
+    border-width: 1px;
+    border-style: outset;
+    border-color: #0040FF;
+    border-radius: 8px;;
+}
+
+.input-l1{
+    margin: 8px;
+}
+.input-l2{
+    margin: 8px;
+}
+.icon{
+    background-color: aqua;
+    height: 25px;
+    width: 100;
+
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
